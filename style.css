@@ -374,7 +374,7 @@
         background-color: rgb(0, 217, 255);
     }
 }
-@media (min-width: 700px){
+@media (min-width: 700px) and (max-width:100px){
     .Physio-head-1_2 {
         background-color:white;
         overflow-x: hidden;
