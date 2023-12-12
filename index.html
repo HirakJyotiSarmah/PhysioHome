@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images\simple-logo.jpg" type="image/png" style="border-radius: 40px;">
+    <title>Physio Hirak</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet"  type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Courgette&family=Courier+Prime&family=Gafata&family=Poppins:wght@200&family=Raleway&family=Ysabeau+SC:wght@1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/dcb56fa4e0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--Physio Navbar Section-->
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+            <div class="container-fluid">
+            <a class="navbar-brand" id="physio-nav-head" href="#">
+                <img src="images\hirak_id.jpg" class="physio-nav-logo">
+                HIRAK PHYSIO
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link active" href="#physio-home"  id="physio-nav-link1">Home <span class="sr-only">(current)</span></a>
+                <!--<a class="nav-item nav-link" href="#" id="physio-nav-link3">About</a>-->
+                <a class="nav-item nav-link" href="#physio-treatment" id="physio-nav-link2">Treatments</a>
+                <a class="nav-item nav-link" href="#physio-contact" id="physio-nav-link4">Contacts</a>
+              </div>
+            </div>
+        </div>
+          </nav>
+    </div>
+    
+    <!--Physio Banner Section-->
+    <div class="physio-banner-bg-container text-center d-flex flex-column justify-content-center pt-2 mb-3" id="physio-home">
+        <div class="physio-banner-bg-container-card pt-3">
+        <h1 class="physio-banner-bg-container-head p-2">Physiotherapist <span class="physio-span-text-style"> (B P T) </span></h1>
+        <h1 class="physio-banner-bg-container-head-2 p-2"><span class="physio-span-text-style"> Dr. Hirakjyoti </span> Sarmah</h1>
+        <p class="physio-banner-bg-container-para p-3">
+            <span class="physio-span-text-style"> Empowering </span> bodies and lives through personalized physiotherapy care.
+            Contact For Home Visit. For both <span class="physio-span-text-style"> Adults </span> and 
+            <span class="physio-span-text-style"> Children </span>
+        </p>
+        <div class="p-3">
+            <a href="#physio-contact">
+            <button class="physio-banner-bg-container-bttn">Book Now</button>
+            </a>
+            <a href="#physio-contact">
+            <button class="physio-banner-bg-container-bttn-outline">Contact Now</button>
+            </a>
+        </div>
+        </div>
+    </div>
+    <!--Physio Treatment Section-->
+    <div class="physio-treatment-section" id="physio-treatment">
+        <h1 class="physio-treatment-section-main-head text-center p-3">Treatment & Facilities Available</h1>
+        <div class="container-fluid">
+            <div class="row">
+                
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="physio-treatment-card text-center p-3 mb-3 shadow">
+                        <div class="physio-treatment-card-img">
+                        <img src="images\back-pain.jpg" class="w-100">
+                        </div>
+                        <h1 class="physio-treatment-card-head pt-3">Back Pain</h1>
+                        <!-- Button trigger modal 
+                        <button type="button" class="physio-banner-bg-container-bttn" data-toggle="modal" data-target="#exampleModal">
+                            Know Treatment
+                        </button>-->
+                            
+                        <h1 class="physio-span-text-style" style="cursor: pointer; font-size: 17px;">Know Treatment
+                            <svg width="48px" height="24px" data-toggle="modal" data-target="#exampleModal1" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill=" #1a75ff" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </h1>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title physio-span-text-style" id="exampleModalLabel">Treatment Details</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <h1 class="physio-treatment-section-main-head text-center">Description</h1>
+                                    <p class="physio-treatment-section-description-para">
+                                        Back pain is a common ailment that can range from a dull, constant ache to a sudden, sharp discomfort. 
+                                        It may originate from muscles, bones, joints, or other structures in the spine. Causes can vary, 
+                                        including poor posture, muscle strain, injury, or underlying medical conditions. 
+                                    </p>
+                                    <h1 class="physio-treatment-section-main-head text-center">Treatment Overview</h1>
+                                     <ul class="physio-treatment-section-description-overview-para">
+                                        <li>My treatment focus will be on assessing and addressing the root causes of back pain</li>
+                                        <li>Employing a personalized approach to enhance flexibility, strength, and overall spinal health.</li>
+                                        <li>Through targeted exercises, manual therapy, and patient education, I aim to alleviate pain, improve mobility.</li>
+                                        <li>And empower individuals to actively manage and prevent future episodes of back discomfort.</li>
+                                     </ul>
+                                     <h1 style="font-size: 11px;font-weight: bold;font-family: 'Poppins', sans-serif;">
+                                        NOTE: The above treatment points are just to give you an idea of the treatment procedure
+                                        but the main treatment might differ patient to patient with respect to thier condition. 
+                                     </h1>
+                                </div>
+                                
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="physio-treatment-card text-center p-3 mb-3 shadow">
+                        <div class="physio-treatment-card-img">
+                        <img src="images\Neck-Pain.jpg" class="w-100 ">
+                        </div>
+                        <h1 class="physio-treatment-card-head pt-3">Neck Pain</h1>
+                        <!-- Button trigger modal 
+                        <button type="button" class="physio-banner-bg-container-bttn" data-toggle="modal" data-target="#exampleModal">
+                            Know Treatment
+                        </button>-->
+                            
+                        <h1 class="physio-span-text-style" style="cursor: pointer; font-size: 17px;">Know Treatment
+                            <svg width="48px" height="24px" data-toggle="modal" data-target="#exampleModal2" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill=" #1a75ff" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </h1>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title physio-span-text-style" id="exampleModalLabel">Treatment Details</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <h1 class="physio-treatment-section-main-head text-center">Description</h1>
+                                    <p class="physio-treatment-section-description-para">
+                                        Neck pain is a prevalent condition characterized by discomfort or stiffness in the cervical region, 
+                                        which may radiate to the shoulders, head, or arms. Contributing factors can include poor posture, muscle tension, 
+                                        injury, or degenerative changes in the neck's structures 
+                                    </p>
+                                    <h1 class="physio-treatment-section-main-head text-center">Treatment Overview</h1>
+                                     <ul class="physio-treatment-section-description-overview-para">
+                                        <li>My approach to neck pain involves a comprehensive evaluation to identify the specific causes and tailor treatment plans accordingly</li>
+                                        <li>Through a combination of manual therapy, targeted exercises, and ergonomic advice.</li>
+                                        <li>My aim to alleviate pain, improve neck mobility, and enhance overall well-being.</li>
+                                        <li>My goal is to empower individuals with the tools and knowledge to manage neck pain effectively and prevent its recurrence.</li>
+                                     </ul>
+                                     <h1 style="font-size: 11px;font-weight: bold;font-family: 'Poppins', sans-serif;">
+                                        NOTE: The above treatment points are just to give you an idea of the treatment procedure
+                                        but the main treatment might differ patient to patient with respect to thier condition. 
+                                     </h1>
+                                </div>
+                                
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="physio-treatment-card text-center p-3 mb-3 shadow">
+                        <div class="physio-treatment-card-img">
+                        <img src="images\Fracture.jpg" class="w-100">
+                        </div>
+                        <h1 class="physio-treatment-card-head pt-3">Fracture</h1>
+                        <!-- Button trigger modal 
+                        <button type="button" class="physio-banner-bg-container-bttn" data-toggle="modal" data-target="#exampleModal">
+                            Know Treatment
+                        </button>-->
+                            
+                        <h1 class="physio-span-text-style" style="cursor: pointer; font-size: 17px;">Know Treatment
+                            <svg width="48px" height="24px" data-toggle="modal" data-target="#exampleModal3" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill=" #1a75ff" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </h1>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title physio-span-text-style" id="exampleModalLabel">Treatment Details</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <h1 class="physio-treatment-section-main-head text-center">Description</h1>
+                                    <p class="physio-treatment-section-description-para">
+                                        A fracture refers to a break or crack in a bone, often resulting from trauma, accidents, or underlying medical conditions 
+                                        that weaken the bone. Fractures can vary in severity, from hairline cracks to complete breaks, and may require different 
+                                        approaches to treatment. Our physiotherapy services for fractures are designed to support the recovery process, focusing 
+                                        on enhancing mobility, strength, and functionality. 
+                                    </p>
+                                    <h1 class="physio-treatment-section-main-head text-center">Treatment Overview</h1>
+                                     <ul class="physio-treatment-section-description-overview-para">
+                                        <li>Through a careful assessment, I will create individualized rehabilitation programs that may include gentle exercises, manual therapy</li>
+                                        <li>And progressive activities to promote bone healing and restore normal function</li>
+                                        <li>My goal is to assist individuals in regaining their independence and optimizing their recovery following a fracture.</li>
+                                     </ul>
+                                     <h1 style="font-size: 11px;font-weight: bold;font-family: 'Poppins', sans-serif;">
+                                        NOTE: The above treatment points are just to give you an idea of the treatment procedure
+                                        but the main treatment might differ patient to patient with respect to thier condition. 
+                                     </h1>
+                                </div>
+                                
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="physio-treatment-card text-center p-3 mb-3 shadow">
+                        <div class="physio-treatment-card-img">
+                        <img src="images\Cervical.jpg" class="w-100 h-100">
+                        </div>
+                        <h1 class="physio-treatment-card-head pt-3">Cervical Spondilytis Pre-post Surgical</h1>
+                        <!-- Button trigger modal 
+                        <button type="button" class="physio-banner-bg-container-bttn" data-toggle="modal" data-target="#exampleModal">
+                            Know Treatment
+                        </button>-->
+                            
+                        <h1 class="physio-span-text-style" style="cursor: pointer; font-size: 17px;">Know Treatment
+                            <svg width="48px" height="24px" data-toggle="modal" data-target="#exampleModal4" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill=" #1a75ff" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </h1>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title physio-span-text-style" id="exampleModalLabel">Treatment Details</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <h1 class="physio-treatment-section-main-head text-center">Description</h1>
+                                    <p class="physio-treatment-section-description-para">
+                                        Cervical spondylosis is a degenerative condition affecting the cervical spine, marked by the wear and tear of the discs 
+                                        and joints in the neck. In cases where conservative measures are insufficient, surgical intervention may be considered.
+                                    </p>
+                                    <h1 class="physio-treatment-section-main-head text-center">Treatment Overview</h1>
+                                     <ul class="physio-treatment-section-description-overview-para">
+                                        <li>Before surgery, my focus is on thorough assessment and preparation.</li>
+                                        <li>I work to address pain, improve neck mobility, and enhance muscular strength to ensure the patient is in the best possible condition for the surgical procedure.</li>
+                                        <li>Following surgery, my physiotherapy interventions concentrate on minimizing pain, reducing inflammation, and promoting the healing process.</li>
+                                        <li>Tailored exercises, manual therapy, and gradual rehabilitation techniques are employed to restore neck range of motion, strengthen supporting muscles, and enhance overall functional abilities.</li>
+                                     </ul>
+                                     <h1 style="font-size: 11px;font-weight: bold;font-family: 'Poppins', sans-serif;">
+                                        NOTE: The above treatment points are just to give you an idea of the treatment procedure
+                                        but the main treatment might differ patient to patient with respect to thier condition. 
+                                     </h1>
+                                </div>
+                                
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="physio-treatment-card text-center p-3 mb-3 shadow">
+                        <div class="physio-treatment-card-img">
+                        <img src="images\Slip Disc.jpg" class="w-100">
+                        </div>
+                        <h1 class="physio-treatment-card-head pt-3">Slip Disc</h1>
+                        <!-- Button trigger modal 
+                        <button type="button" class="physio-banner-bg-container-bttn" data-toggle="modal" data-target="#exampleModal">
+                            Know Treatment
+                        </button>-->
+                            
+                        <h1 class="physio-span-text-style" style="cursor: pointer; font-size: 17px;">Know Treatment
+                            <svg width="48px" height="24px" data-toggle="modal" data-target="#exampleModal5" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill=" #1a75ff" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </h1>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title physio-span-text-style" id="exampleModalLabel">Treatment Details</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <h1 class="physio-treatment-section-main-head text-center">Description</h1>
+                                    <p class="physio-treatment-section-description-para">
+                                        Slipped disc, or herniated disc, is a condition marked by the protrusion of the intervertebral disc's inner material, 
+                                        often causing pain and discomfort. Our physiotherapy approach is tailored to alleviate symptoms through targeted interventions.
+                                    </p>
+                                    <h1 class="physio-treatment-section-main-head text-center">Treatment Overview</h1>
+                                     <ul class="physio-treatment-section-description-overview-para">
+                                        <li>I will employ manual therapy to reduce tension, design personalized exercise programs to enhance core strength and flexibility</li>
+                                        <li>And provide education on posture and lifestyle modifications.</li>
+                                        <li>By addressing both immediate symptoms and underlying factors.</li>
+                                        <li>My goal is to empower individuals with the tools for long-term spine health and overall well-being.</li>
+                                     </ul>
+                                     <h1 style="font-size: 11px;font-weight: bold;font-family: 'Poppins', sans-serif;">
+                                        NOTE: The above treatment points are just to give you an idea of the treatment procedure
+                                        but the main treatment might differ patient to patient with respect to thier condition. 
+                                     </h1>
+                                </div>
+                                
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="physio-treatment-card text-center p-3 mb-3 shadow">
+                        <div class="physio-treatment-card-img">
+                        <img src="images\Complications.jpg" class="w-100 ">
+                        </div>
+                        <h1 class="physio-treatment-card-head pt-3">Complications</h1>
+                        <!-- Button trigger modal 
+                        <button type="button" class="physio-banner-bg-container-bttn" data-toggle="modal" data-target="#exampleModal">
+                            Know Treatment
+                        </button>-->
+                            
+                        <h1 class="physio-span-text-style" style="cursor: pointer; font-size: 17px;">Know Treatment
+                            <svg width="48px" height="24px" data-toggle="modal" data-target="#exampleModal6" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill=" #1a75ff" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </h1>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title physio-span-text-style" id="exampleModalLabel">Treatment Details</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <h1 class="physio-treatment-section-main-head text-center">Description</h1>
+                                    <p class="physio-treatment-section-description-para">
+                                        Complications, whether arising from injury, surgery, or chronic conditions, demand a specialized physiotherapy approach. 
+                                        My comprehensive assessment allows us to tailor interventions to manage complications effectively. 
+                                    </p>
+                                    <h1 class="physio-treatment-section-main-head text-center">Treatment Overview</h1>
+                                     <ul class="physio-treatment-section-description-overview-para">
+                                        <li>Through a combination of manual therapy, targeted exercises, and personalized care plans.</li>
+                                        <li>I will address specific challenges, aiming to alleviate symptoms, restore function, and enhance overall well-being.</li>
+                                        <li>My commitment is to guide individuals through the complexities of their unique situations, providing support, education.</li>
+                                        <li>And empowering them on the journey to recovery and improved quality of life.</li>
+                                     </ul>
+                                     <h1 style="font-size: 11px;font-weight: bold;font-family: 'Poppins', sans-serif;">
+                                        NOTE: The above treatment points are just to give you an idea of the treatment procedure
+                                        but the main treatment might differ patient to patient with respect to thier condition. 
+                                     </h1>
+                                </div>
+                                
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="physio-treatment-card text-center p-3 mb-3 shadow">
+                        <div class="physio-treatment-card-img">
+                        <img src="images\Arthritis.jpg" class="w-100">
+                        </div>
+                        <h1 class="physio-treatment-card-head pt-3">Arthritis</h1>
+                        <!-- Button trigger modal 
+                        <button type="button" class="physio-banner-bg-container-bttn" data-toggle="modal" data-target="#exampleModal">
+                            Know Treatment
+                        </button>-->
+                            
+                        <h1 class="physio-span-text-style" style="cursor: pointer; font-size: 17px;">Know Treatment
+                            <svg width="48px" height="24px" data-toggle="modal" data-target="#exampleModal7" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill=" #1a75ff" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </h1>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title physio-span-text-style" id="exampleModalLabel">Treatment Details</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <h1 class="physio-treatment-section-main-head text-center">Description</h1>
+                                    <p class="physio-treatment-section-description-para">
+                                        Arthritis, a condition characterized by joint inflammation, presents unique challenges that necessitate a specialized physiotherapy approach. 
+                                        My comprehensive assessment enables us to design personalized interventions aimed at managing pain, improving joint mobility, and enhancing 
+                                        overall functionality. 
+                                    </p>
+                                    <h1 class="physio-treatment-section-main-head text-center">Treatment Overview</h1>
+                                     <ul class="physio-treatment-section-description-overview-para">
+                                        <li>Through a combination of targeted exercises, joint mobilization, and therapeutic modalities.</li>
+                                        <li>My goal is to empower individuals with arthritis to actively manage their condition, alleviate symptoms.</li>
+                                        <li>Optimize their quality of life through a tailored and holistic physiotherapy program.</li>
+                                     </ul>
+                                     <h1 style="font-size: 11px;font-weight: bold;font-family: 'Poppins', sans-serif;">
+                                        NOTE: The above treatment points are just to give you an idea of the treatment procedure
+                                        but the main treatment might differ patient to patient with respect to thier condition. 
+                                     </h1>
+                                </div>
+                                
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="physio-treatment-card text-center p-3 mb-3 shadow">
+                        <div class="physio-treatment-card-img">
+                        <img src="images\Shoulder Pain.jpg" class="w-100">
+                        </div>
+                        <h1 class="physio-treatment-card-head pt-3">Frozen Shoulder</h1>
+                        <!-- Button trigger modal 
+                        <button type="button" class="physio-banner-bg-container-bttn" data-toggle="modal" data-target="#exampleModal">
+                            Know Treatment
+                        </button>-->
+                            
+                        <h1 class="physio-span-text-style" style="cursor: pointer; font-size: 17px;">Know Treatment
+                            <svg width="48px" height="24px" data-toggle="modal" data-target="#exampleModal8" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill=" #1a75ff" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </h1>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title physio-span-text-style" id="exampleModalLabel">Treatment Details</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <h1 class="physio-treatment-section-main-head text-center">Description</h1>
+                                    <p class="physio-treatment-section-description-para">
+                                        Frozen shoulder, or adhesive capsulitis, is a condition characterized by stiffness and pain in the shoulder joint, limiting its range 
+                                        of motion. My specialized physiotherapy approach for frozen shoulder involves a thorough assessment to understand the unique 
+                                        challenges of the condition.
+                                    </p>
+                                    <h1 class="physio-treatment-section-main-head text-center">Treatment Overview</h1>
+                                     <ul class="physio-treatment-section-description-overview-para">
+                                        <li>Through targeted interventions such as joint mobilization, stretching exercises, and gentle range of motion exercises.</li>
+                                        <li>I aim to alleviate pain, improve shoulder flexibility, and restore functional movement.</li>
+                                        <li>My physiotherapy services for frozen shoulder are designed to provide personalized care, empowering individuals to regain optimal shoulder function .</li>
+                                        <li>And enhance their overall quality of life by addressing the specific complexities associated with this condition.</li>
+                                     </ul>
+                                     <h1 style="font-size: 11px;font-weight: bold;font-family: 'Poppins', sans-serif;">
+                                        NOTE: The above treatment points are just to give you an idea of the treatment procedure
+                                        but the main treatment might differ patient to patient with respect to thier condition. 
+                                     </h1>
+                                </div>
+                                
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="physio-treatment-card text-center p-3 mb-3 shadow">
+                        <div class="physio-treatment-card-img">
+                        <img src="images\Knee Pain.jpg" class="w-100">
+                        </div>
+                        <h1 class="physio-treatment-card-head pt-3">Knee Pain</h1>
+                        <!-- Button trigger modal 
+                        <button type="button" class="physio-banner-bg-container-bttn" data-toggle="modal" data-target="#exampleModal">
+                            Know Treatment
+                        </button>-->
+                            
+                        <h1 class="physio-span-text-style" style="cursor: pointer; font-size: 17px;">Know Treatment
+                            <svg width="48px" height="24px" data-toggle="modal" data-target="#exampleModal9" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill=" #1a75ff" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </h1>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title physio-span-text-style" id="exampleModalLabel">Treatment Details</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <h1 class="physio-treatment-section-main-head text-center">Description</h1>
+                                    <p class="physio-treatment-section-description-para">
+                                        Knee pain, a common and often debilitating issue, requires a specialized physiotherapy approach to effectively address 
+                                        its underlying causes. Our comprehensive assessment allows us to tailor interventions for personalized care. 
+                                    </p>
+                                    <h1 class="physio-treatment-section-main-head text-center">Treatment Overview</h1>
+                                     <ul class="physio-treatment-section-description-overview-para">
+                                        <li>Through a combination of targeted exercises, manual therapy, and modalities, we aim to alleviate pain, improve joint mobility.</li>
+                                        <li>And strengthen supporting muscles</li>
+                                        <li>My goal is to empower individuals with the tools to manage knee pain, regain mobility.</li>
+                                        <li>And optimize their overall quality of life.</li>
+                                     </ul>
+                                     <h1 style="font-size: 11px;font-weight: bold;font-family: 'Poppins', sans-serif;">
+                                        NOTE: The above treatment points are just to give you an idea of the treatment procedure
+                                        but the main treatment might differ patient to patient with respect to thier condition. 
+                                     </h1>
+                                </div>
+                                
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="physio-treatment-card text-center p-3 mb-3 shadow">
+                        <div class="physio-treatment-card-img">
+                        <img src="images\bellsPalsy.jpg" class="w-100 ">
+                        </div>
+                        <h1 class="physio-treatment-card-head pt-3">Bell's Palsy</h1>
+                        <!-- Button trigger modal 
+                        <button type="button" class="physio-banner-bg-container-bttn" data-toggle="modal" data-target="#exampleModal">
+                            Know Treatment
+                        </button>-->
+                            
+                        <h1 class="physio-span-text-style" style="cursor: pointer; font-size: 17px;">Know Treatment
+                            <svg width="48px" height="24px" data-toggle="modal" data-target="#exampleModal10" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill=" #1a75ff" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </h1>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title physio-span-text-style" id="exampleModalLabel">Treatment Details</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <h1 class="physio-treatment-section-main-head text-center">Description</h1>
+                                    <p class="physio-treatment-section-description-para">
+                                        Bell's Palsy, a condition characterized by sudden, temporary weakness or paralysis of the muscles on one side of the face, 
+                                        requires a specialized physiotherapy approach to address its unique challenges.
+                                    </p>
+                                    <h1 class="physio-treatment-section-main-head text-center">Treatment Overview</h1>
+                                     <ul class="physio-treatment-section-description-overview-para">
+                                        <li>My  comprehensive assessment allows us to design personalized interventions, incorporating techniques such as facial exercises, neuromuscular retraining.</li>
+                                        <li>And electrical stimulation to improve facial muscle strength and coordination.</li>
+                                        <li>Through targeted physiotherapy, I aim to optimize facial function, promote symmetry, and enhance overall facial mobility.</li>
+                                        <li>My  services for Bell's Palsy focus on facilitating recovery, minimizing long-term effects, and providing support to individuals on their journey towards improved facial expression and function.</li>
+                                     </ul>
+                                     <h1 style="font-size: 11px;font-weight: bold;font-family: 'Poppins', sans-serif;">
+                                        NOTE: The above treatment points are just to give you an idea of the treatment procedure
+                                        but the main treatment might differ patient to patient with respect to thier condition. 
+                                     </h1>
+                                </div>
+                                
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="physio-treatment-card text-center p-3 mb-3 shadow">
+                        <div class="physio-treatment-card-img">
+                        <img src="images\Pediatric.jpg" class="w-100">
+                        </div>
+                        <h1 class="physio-treatment-card-head pt-3">Pediatric Condition</h1>
+                        <!-- Button trigger modal 
+                        <button type="button" class="physio-banner-bg-container-bttn" data-toggle="modal" data-target="#exampleModal">
+                            Know Treatment
+                        </button>-->
+                            
+                        <h1 class="physio-span-text-style" style="cursor: pointer; font-size: 17px;">Know Treatment
+                            <svg width="48px" height="24px" data-toggle="modal" data-target="#exampleModal11" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill=" #1a75ff" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </h1>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title physio-span-text-style" id="exampleModalLabel">Treatment Details</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <h1 class="physio-treatment-section-main-head text-center">Description</h1>
+                                    <p class="physio-treatment-section-description-para">
+                                        Pediatric conditions demand a specialized and gentle physiotherapy approach tailored to the unique needs of children. Our comprehensive assessment considers developmental 
+                                        stages and individual capabilities, allowing us to design personalized interventions that may include age-appropriate 
+                                        exercises, play-based therapies, and family involvement. 
+                                    </p>
+                                    <h1 class="physio-treatment-section-main-head text-center">Treatment Overview</h1>
+                                     <ul class="physio-treatment-section-description-overview-para">
+                                        <li>My physiotherapy services for pediatric conditions prioritize the promotion of motor skills, coordination, and overall physical well-being.</li>
+                                        <li>I am committed in creating a supportive and engaging environment, fostering the optimal growth and development of children.</li>
+                                        <li>While providing families with the tools and guidance necessary for their child's unique journey to physical health and function.</li>
+                                     </ul>
+                                     <h1 style="font-size: 11px;font-weight: bold;font-family: 'Poppins', sans-serif;">
+                                        NOTE: The above treatment points are just to give you an idea of the treatment procedure
+                                        but the main treatment might differ patient to patient with respect to thier condition. 
+                                     </h1>
+                                </div>
+                                
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="physio-treatment-card text-center p-3 mb-3 shadow">
+                        <div class="physio-treatment-card-img">
+                        <img src="images\Celebral Palsy.jpg" class="w-100">
+                        </div>
+                        <h1 class="physio-treatment-card-head pt-3">Cerebral Palsy</h1>
+                        <!-- Button trigger modal 
+                        <button type="button" class="physio-banner-bg-container-bttn" data-toggle="modal" data-target="#exampleModal">
+                            Know Treatment
+                        </button>-->
+                            
+                        <h1 class="physio-span-text-style" style="cursor: pointer; font-size: 17px;">Know Treatment
+                            <svg width="48px" height="24px" data-toggle="modal" data-target="#exampleModal12" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill=" #1a75ff" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </h1>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title physio-span-text-style" id="exampleModalLabel">Treatment Details</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <h1 class="physio-treatment-section-main-head text-center">Description</h1>
+                                    <p class="physio-treatment-section-description-para">
+                                        Cerebral palsy, a neurological condition affecting movement and coordination, necessitates a specialized and holistic physiotherapy 
+                                        approach tailored to the unique challenges of each individual. My comprehensive assessment considers the specific manifestations 
+                                        of cerebral palsy, enabling us to design personalized interventions that focus on improving motor skills, muscle tone, 
+                                        and overall mobility.
+                                    </p>
+                                    <h1 class="physio-treatment-section-main-head text-center">Treatment Overview</h1>
+                                     <ul class="physio-treatment-section-description-overview-para">
+                                        <li>Through a combination of therapeutic exercises, adaptive equipment, and functional activities.</li>
+                                        <li>My physiotherapy services aim to enhance independence, optimize physical function.</li>
+                                        <li>And improve the overall quality of life for individuals with cerebral palsy.</li>
+                                        <li>I am dedicated to providing support, guidance, and empowering both individuals and their families on their journey toward achieving their fullest potential.</li>
+                                     </ul>
+                                     <h1 style="font-size: 11px;font-weight: bold;font-family: 'Poppins', sans-serif;">
+                                        NOTE: The above treatment points are just to give you an idea of the treatment procedure
+                                        but the main treatment might differ patient to patient with respect to thier condition. 
+                                     </h1>
+                                </div>
+                                
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="physio-treatment-card text-center p-3 mb-3 shadow">
+                        <div class="physio-treatment-card-img">
+                        <img src="images\Muscle Weakness.jpg" class="w-100">
+                        </div>
+                        <h1 class="physio-treatment-card-head pt-3">Muscle Weakness</h1>
+                        <!-- Button trigger modal 
+                        <button type="button" class="physio-banner-bg-container-bttn" data-toggle="modal" data-target="#exampleModal">
+                            Know Treatment
+                        </button>-->
+                            
+                        <h1 class="physio-span-text-style" style="cursor: pointer; font-size: 17px;">Know Treatment
+                            <svg width="48px" height="24px" data-toggle="modal" data-target="#exampleModal13" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill=" #1a75ff" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </h1>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title physio-span-text-style" id="exampleModalLabel">Treatment Details</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <h1 class="physio-treatment-section-main-head text-center">Description</h1>
+                                    <p class="physio-treatment-section-description-para">
+                                        Muscle weakness, whether stemming from injury, neuromuscular disorders, or other health conditions, requires a specialized 
+                                        physiotherapy approach to effectively address the underlying causes and optimize strength.
+                                    </p>
+                                    <h1 class="physio-treatment-section-main-head text-center">Treatment Overview</h1>
+                                     <ul class="physio-treatment-section-description-overview-para">
+                                        <li>My thorough assessment allows us to tailor interventions, employing a combination of targeted exercises, resistance training.</li>
+                                        <li>And neuromuscular re-education to promote muscle activation and enhance overall strength.</li>
+                                        <li>My physiotherapy services aim to alleviate weakness, improve functional abilities, and foster increased independence.</li>
+                                        <li>I am committed to empowering individuals with the tools and support needed to overcome muscle weakness, promoting long-term resilience and improved quality of life.</li>
+                                     </ul>
+                                     <h1 style="font-size: 11px;font-weight: bold;font-family: 'Poppins', sans-serif;">
+                                        NOTE: The above treatment points are just to give you an idea of the treatment procedure
+                                        but the main treatment might differ patient to patient with respect to thier condition. 
+                                     </h1>
+                                </div>
+                                
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="physio-treatment-card text-center p-3 mb-3 shadow">
+                        <div class="physio-treatment-card-img">
+                        <img src="images\Joint Pain.jpg" class="w-100 ">
+                        </div>
+                        <h1 class="physio-treatment-card-head pt-3">Joint Pain</h1>
+                        <!-- Button trigger modal 
+                        <button type="button" class="physio-banner-bg-container-bttn" data-toggle="modal" data-target="#exampleModal">
+                            Know Treatment
+                        </button>-->
+                            
+                        <h1 class="physio-span-text-style" style="cursor: pointer; font-size: 17px;">Know Treatment
+                            <svg width="48px" height="24px" data-toggle="modal" data-target="#exampleModal14" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill=" #1a75ff" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </h1>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title physio-span-text-style" id="exampleModalLabel">Treatment Details</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <h1 class="physio-treatment-section-main-head text-center">Description</h1>
+                                    <p class="physio-treatment-section-description-para">
+                                        Joint pain, a common and often debilitating issue, requires a specialized physiotherapy approach to address its root causes and 
+                                        improve overall joint health. My comprehensive assessment enables us to design personalized interventions tailored to the 
+                                        specific joint and underlying conditions.
+                                    </p>
+                                    <h1 class="physio-treatment-section-main-head text-center">Treatment Overview</h1>
+                                     <ul class="physio-treatment-section-description-overview-para">
+                                        <li>Through a combination of targeted exercises, joint mobilization, and therapeutic modalities.</li>
+                                        <li>My physiotherapy services for joint pain aim to alleviate discomfort, enhance joint mobility, and strengthen surrounding muscles.</li>
+                                        <li> Whether caused by arthritis, injury, or other factors, my goal is to optimize joint function, reduce pain.</li>
+                                        <li>And empower individuals with the tools and knowledge for ongoing joint health and improved quality of life.</li>
+                                     </ul>
+                                     <h1 style="font-size: 11px;font-weight: bold;font-family: 'Poppins', sans-serif;">
+                                        NOTE: The above treatment points are just to give you an idea of the treatment procedure
+                                        but the main treatment might differ patient to patient with respect to thier condition. 
+                                     </h1>
+                                </div>
+                                
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="physio-treatment-card text-center p-3 mb-3 shadow">
+                        <div class="physio-treatment-card-img">
+                        <img src="images\Stroke.jpg" class="w-100">
+                        </div>
+                        <h1 class="physio-treatment-card-head pt-3">Stroke</h1>
+                        <!-- Button trigger modal 
+                        <button type="button" class="physio-banner-bg-container-bttn" data-toggle="modal" data-target="#exampleModal">
+                            Know Treatment
+                        </button>-->
+                            
+                        <h1 class="physio-span-text-style" style="cursor: pointer; font-size: 17px;">Know Treatment
+                            <svg width="48px" height="24px" data-toggle="modal" data-target="#exampleModal15" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill=" #1a75ff" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </h1>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal15" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title physio-span-text-style" id="exampleModalLabel">Treatment Details</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <h1 class="physio-treatment-section-main-head text-center">Description</h1>
+                                    <p class="physio-treatment-section-description-para">
+                                        Stroke rehabilitation demands a specialized and comprehensive physiotherapy approach to address the unique challenges 
+                                        individuals may face after a stroke. My services focus on restoring functional independence by targeting specific 
+                                        motor deficits, improving mobility, and enhancing overall quality of life.
+                                    </p>
+                                    <h1 class="physio-treatment-section-main-head text-center">Treatment Overview</h1>
+                                     <ul class="physio-treatment-section-description-overview-para">
+                                        <li>Through a thorough assessment, I design personalized interventions that may include strength training, balance exercises, coordination drills, and gait training.</li>
+                                        <li> Utilizing evidence-based techniques, our physiotherapy aims to facilitate neuroplasticity, supporting the brain's ability to adapt and reorganize after a stroke.</li>
+                                        <li>I am committed to providing holistic care, empowering individuals on their journey towards regaining optimal physical function.</li>
+                                        <li>And promoting resilience and recovery after a stroke.</li>
+                                     </ul>
+                                     <h1 style="font-size: 11px;font-weight: bold;font-family: 'Poppins', sans-serif;">
+                                        NOTE: The above treatment points are just to give you an idea of the treatment procedure
+                                        but the main treatment might differ patient to patient with respect to thier condition. 
+                                     </h1>
+                                </div>
+                                
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="physio-treatment-card text-center p-3 mb-3 shadow">
+                        <div class="physio-treatment-card-img">
+                        <img src="images\Oestopathy.jpg" class="w-100">
+                        </div>
+                        <h1 class="physio-treatment-card-head pt-3">Oesthopathy D Manual Therapy</h1>
+                        <!-- Button trigger modal 
+                        <button type="button" class="physio-banner-bg-container-bttn" data-toggle="modal" data-target="#exampleModal">
+                            Know Treatment
+                        </button>-->
+                            
+                        <h1 class="physio-span-text-style" style="cursor: pointer; font-size: 17px;">Know Treatment
+                            <svg width="48px" height="24px" data-toggle="modal" data-target="#exampleModal16" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill=" #1a75ff" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </h1>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal16" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title physio-span-text-style" id="exampleModalLabel">Treatment Details</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <h1 class="physio-treatment-section-main-head text-center">Description</h1>
+                                    <p class="physio-treatment-section-description-para">
+                                        Osteopathy is a manual therapy approach that focuses on the musculoskeletal system to promote overall health and well-being. 
+                                        My osteopathic services involve a comprehensive assessment to identify areas of restricted movement 
+                                        or dysfunction within the body. 
+                                    </p>
+                                    <h1 class="physio-treatment-section-main-head text-center">Treatment Overview</h1>
+                                     <ul class="physio-treatment-section-description-overview-para">
+                                        <li>Through hands-on techniques such as joint mobilization, soft tissue manipulation, and gentle stretching.</li>
+                                        <li>My goal is to restore balance, alleviate pain, and enhance the body's natural healing abilities.</li>
+                                        <li>Osteopathy considers the interconnectedness of the body systems, addressing not only symptoms but also the underlying causes of discomfort.</li>
+                                        <li>My services aim to optimize physical function and contribute to the overall health and vitality of individuals.</li>
+                                     </ul>
+                                     <h1 style="font-size: 11px;font-weight: bold;font-family: 'Poppins', sans-serif;">
+                                        NOTE: The above treatment points are just to give you an idea of the treatment procedure
+                                        but the main treatment might differ patient to patient with respect to thier condition. 
+                                     </h1>
+                                </div>
+                                
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="physio-treatment-card text-center p-3 mb-3 shadow">
+                        <div class="physio-treatment-card-img">
+                        <img src="images\best-tens.jpg" class="w-100">
+                        </div>
+                        <h1 class="physio-treatment-card-head pt-3">TENS ( Transcutaneous Electrical Nerve Stimulation )</h1>
+                        <!-- Button trigger modal 
+                        <button type="button" class="physio-banner-bg-container-bttn" data-toggle="modal" data-target="#exampleModal">
+                            Know Treatment
+                        </button>-->
+                            
+                        <h1 class="physio-span-text-style" style="cursor: pointer; font-size: 17px;">Know Treatment
+                            <svg width="48px" height="24px" data-toggle="modal" data-target="#exampleModal17" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill=" #1a75ff" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </h1>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal17" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title physio-span-text-style" id="exampleModalLabel">Treatment Details</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <h1 class="physio-treatment-section-main-head text-center">Description</h1>
+                                    <p class="physio-treatment-section-description-para">
+                                        Transcutaneous Electrical Nerve Stimulation (TENS) therapy in physiotherapy involves the use of a small, battery-operated device that delivers 
+                                        low-voltage electrical currents to targeted areas of the body. This treatment aims to alleviate pain by modulating nerve activity and influencing 
+                                        the perception of pain signals.
+                                    </p>
+                                    <h1 class="physio-treatment-section-main-head text-center">Treatment Overview</h1>
+                                     <ul class="physio-treatment-section-description-overview-para">
+                                        <li>Utilizes a small, battery-operated TENS device, delivers low-voltage electrical currents to targeted areas of the body.</li>
+                                        <li> Alleviates pain by modulating nerve activity and influencing pain signal perception.</li>
+                                        <li>Disrupts pain signals, stimulates endorphin production, and improves blood circulation.</li>
+                                        <li>Customizable based on the patient's pain level and individual response.</li>
+                                     </ul>
+                                     <h1 style="font-size: 11px;font-weight: bold;font-family: 'Poppins', sans-serif;">
+                                        NOTE: The above treatment points are just to give you an idea of the treatment procedure
+                                        but the main treatment might differ patient to patient with respect to thier condition. 
+                                     </h1>
+                                </div>
+                                
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="physio-treatment-card text-center p-3 mb-3 shadow">
+                        <div class="physio-treatment-card-img">
+                        <img src="images\ultra.jpeg" class="w-100 ">
+                        </div>
+                        <h1 class="physio-treatment-card-head pt-3">Ultrasound</h1>
+                        <!-- Button trigger modal 
+                        <button type="button" class="physio-banner-bg-container-bttn" data-toggle="modal" data-target="#exampleModal">
+                            Know Treatment
+                        </button>-->
+                            
+                        <h1 class="physio-span-text-style" style="cursor: pointer; font-size: 17px;">Know Treatment
+                            <svg width="48px" height="24px" data-toggle="modal" data-target="#exampleModal18" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill=" #1a75ff" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </h1>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal18" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title physio-span-text-style" id="exampleModalLabel">Treatment Details</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <h1 class="physio-treatment-section-main-head text-center">Description</h1>
+                                    <p class="physio-treatment-section-description-para">
+                                        Ultrasound therapy in physiotherapy involves the application of high-frequency sound waves to targeted areas of the body. 
+                                        These sound waves generate mechanical vibrations that penetrate deep into the tissues, producing a warming effect. 
+                                        This process can stimulate blood flow, reduce inflammation, and promote tissue healing, making it a valuable tool in 
+                                        the treatment of various musculoskeletal conditions.
+                                    </p>
+                                    <h1 class="physio-treatment-section-main-head text-center">Treatment Overview</h1>
+                                     <ul class="physio-treatment-section-description-overview-para">
+                                        <li>Ultrasound therapy is commonly used to alleviate pain, relax muscles.</li>
+                                        <li>And enhance the effectiveness of other physiotherapy interventions.</li>
+                                        <li>Its non-invasive nature and ability to reach deep tissues make ultrasound a versatile and effective modality.</li>
+                                        <li>Contributing to the overall success of rehabilitation and recovery programs in physiotherapy.</li>
+                                     </ul>
+                                     <h1 style="font-size: 11px;font-weight: bold;font-family: 'Poppins', sans-serif;">
+                                        NOTE: The above treatment points are just to give you an idea of the treatment procedure
+                                        but the main treatment might differ patient to patient with respect to thier condition. 
+                                     </h1>
+                                </div>
+                                
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="physio-treatment-card text-center p-3 mb-3 shadow">
+                        <div class="physio-treatment-card-img">
+                        <img src="images\traction.jpeg" class="w-100">
+                        </div>
+                        <h1 class="physio-treatment-card-head pt-3">Traction</h1>
+                        <!-- Button trigger modal 
+                        <button type="button" class="physio-banner-bg-container-bttn" data-toggle="modal" data-target="#exampleModal">
+                            Know Treatment
+                        </button>-->
+                            
+                        <h1 class="physio-span-text-style" style="cursor: pointer; font-size: 17px;">Know Treatment
+                            <svg width="48px" height="24px" data-toggle="modal" data-target="#exampleModal19" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill=" #1a75ff" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </h1>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal19" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title physio-span-text-style" id="exampleModalLabel">Treatment Details</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <h1 class="physio-treatment-section-main-head text-center">Description</h1>
+                                    <p class="physio-treatment-section-description-para">
+                                        Traction is a therapeutic technique employed in physiotherapy to address spinal and joint-related issues. It involves
+                                        the application of a controlled pulling force to the spine or a specific joint, creating separation between 
+                                        vertebrae or joint surfaces. This gentle stretching helps alleviate pressure on nerves, reduce compression, 
+                                        and promote proper alignment. 
+                                    </p>
+                                    <h1 class="physio-treatment-section-main-head text-center">Treatment Overview</h1>
+                                     <ul class="physio-treatment-section-description-overview-para">
+                                        <li>Whether through advanced mechanical devices or hands-on manual techniques, I will meticulously tailor traction to address individual needs.</li>
+                                        <li>Integrated into comprehensive treatment plans, traction plays a vital role in promoting pain relief, facilitating healing, and optimizing overall functional outcomes.</li>
+                                        <li>Discover the personalized care and effectiveness of traction as part of my commitment to your holistic well-being.</li>
+                                     </ul>
+                                     <h1 style="font-size: 11px;font-weight: bold;font-family: 'Poppins', sans-serif;">
+                                        NOTE: The above treatment points are just to give you an idea of the treatment procedure
+                                        but the main treatment might differ patient to patient with respect to thier condition. 
+                                     </h1>
+                                </div>
+                                
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="physio-treatment-card text-center p-3 mb-3 shadow">
+                        <div class="physio-treatment-card-img">
+                        <img src="images\muscle therapy.jpg" class="w-100">
+                        </div>
+                        <h1 class="physio-treatment-card-head pt-3">IFT ( Interferential Therapy )</h1>
+                        <!-- Button trigger modal 
+                        <button type="button" class="physio-banner-bg-container-bttn" data-toggle="modal" data-target="#exampleModal">
+                            Know Treatment
+                        </button>-->
+                            
+                        <h1 class="physio-span-text-style" style="cursor: pointer; font-size: 17px;">Know Treatment
+                            <svg width="48px" height="24px" data-toggle="modal" data-target="#exampleModal20" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill=" #1a75ff" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </h1>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal20" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title physio-span-text-style" id="exampleModalLabel">Treatment Details</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <h1 class="physio-treatment-section-main-head text-center">Description</h1>
+                                    <p class="physio-treatment-section-description-para">
+                                        Interferential Therapy (IFT), a cornerstone of our physiotherapy services, is a non-invasive modality designed to alleviate 
+                                        pain and promote tissue healing. IFT involves the use of low-frequency electrical currents that intersect within 
+                                        the body, creating a therapeutic effect. 
+                                    </p>
+                                    <h1 class="physio-treatment-section-main-head text-center">Treatment Overview</h1>
+                                     <ul class="physio-treatment-section-description-overview-para">
+                                        <li>I will  integrate IFT seamlessly into personalized treatment plans, offering a gentle yet powerful solution for a wide range of musculoskeletal conditions.</li>
+                                        <li>Discover the transformative benefits of IFT as part of our commitment to providing advanced and comprehensive care for your optimal well-being.</li>
+                                     </ul>
+                                     <h1 style="font-size: 11px;font-weight: bold;font-family: 'Poppins', sans-serif;">
+                                        NOTE: The above treatment points are just to give you an idea of the treatment procedure
+                                        but the main treatment might differ patient to patient with respect to thier condition. 
+                                     </h1>
+                                </div>
+                                
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--Physio Contact Section-->
+    <h1 class="physio-treatment-section-main-head text-center p-3" style="background-color: #0066ff;">My Contact Details</h1>
+        <div class="physio-contact-section text-center" id="physio-contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="physio-contact-card p-3">
+                        <a href="">
+                            <i class="fa-brands fa-whatsapp fa-bounce physio-contact-card-logo"></i>
+                        </a>
+                        <h1 class="physio-contact-card-head">+91 7002119075</h1>
+                        <p class="physio-contact-card-para">Contact Now</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="physio-contact-card p-3">
+                        <a href="https://www.instagram.com/dr.hirakjyoti_sarmahpt/" target="_blank">
+                            <i class="fa-brands fa-instagram fa-bounce physio-contact-card-logo"></i>
+                        </a>
+                        <h1 class="physio-contact-card-head">@dr.hirakjyoti_sarmah</h1>
+                        <p class="physio-contact-card-para">Contact Now</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="physio-contact-card p-3">
+                        <a href="https://twitter.com/imhirak_" target="_blank">
+                            <i class="fa-brands fa-twitter fa-bounce physio-contact-card-logo"></i>
+                        </a>
+                        <h1 class="physio-contact-card-head">@imhirak__</h1>
+                        <p class="physio-contact-card-para">Contact Now</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="physio-contact-card p-3">
+                        <a href="https://www.facebook.com/hirakjyoti.sarma.39" target="_blank">
+                            <i class="fa-brands fa-facebook fa-bounce physio-contact-card-logo"></i>
+                        </a>
+                        <h1 class="physio-contact-card-head">@hirakjyoti.sarma.39</h1>
+                        <p class="physio-contact-card-para">Contact Now</p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <hr style="color: white;">
+                    <div class="d-flex flex-row justify-content-center">
+                        <i class="fa-regular fa-copyright physio-contact-card-logo pr-3"></i>
+                        <p class="physio-contact-card-para">
+                            All copyrights reserved to Hirakjyoti Sarma.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

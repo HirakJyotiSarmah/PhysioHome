@@ -1,0 +1,189 @@
+
+
+/*Physio Navbar Section Styling*/
+.physio-nav-logo{
+    height: 33px;
+    width: 33px;
+    border-radius: 40px;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+@keyframes slidein{
+    from {
+        margin-right: 50%;
+    }
+    to 
+    {
+        margin-left: 0%;
+    }
+    
+}
+
+#physio-nav-head{
+    font-size: 22px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 11px;
+}
+#physio-nav-link1{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+#physio-nav-link2{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+#physio-nav-link3{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+#physio-nav-link4{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+/*Physio Banner Background Section Styling*/
+.physio-banner-bg-container{
+    background-image: url("https://img.freepik.com/free-photo/stethoscope-clean-table-doctor-work-tool-generative-ai_188544-12525.jpg?size=626&ext=jpg&ga=GA1.1.1936385536.1677589466&semt=ais");
+    height: 555px;
+    background-size: cover;
+    animation: text 2s;/
+}
+.physio-banner-bg-container-card{
+    background-color: #00000090;
+    margin-top: 32px;
+}
+.physio-span-text-style{
+    font-size: 22px;
+    font-weight: bold;
+    color: #1a75ff;
+    font-family: 'Poppins', sans-serif;
+}
+.physio-banner-bg-container-head{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.physio-banner-bg-container-head-2{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.physio-banner-bg-container-para{
+    font-size: 22px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.physio-banner-bg-container-bttn{
+    background-color: #005ce6;
+    border-width: 0px;
+    color: white;
+    height: 44px;
+    width: 122px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    border-radius: 5px;
+    margin: 11px;
+}
+.physio-banner-bg-container-bttn-outline{
+    background-color: transparent;
+    border-width: 1px;
+    border-color: #0066ff;
+    color: #0066ff;
+    height: 44px;
+    width: 144px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    border-radius: 5px;
+    margin: 11px;
+}
+
+@keyframes text {
+    0%
+    {
+        margin-bottom: -44px;
+    }
+    30%
+    {   
+        letter-spacing: 4px;
+        margin-bottom: -44px;
+    }
+    85%
+    {
+        letter-spacing: 4px;
+        margin-bottom: -44px;
+    }
+
+}
+/*Physio Treatment Section Styling*/
+.physio-treatment-section-main-head{
+    font-size: 24px;
+    font-weight: 200;
+    color: white;
+    background-color: #408bfc;
+    font-family: 'Poppins', sans-serif;
+}
+.physio-treatment-card{
+    background-color: white;
+    border-radius: 15px;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+.physio-treatment-card-img{
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 16% 100%);
+    transition: all ease 1s;
+    height: 188px;
+    border-width: 2px;
+    border-color: blue;
+}
+.physio-treatment-card-head{
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.physio-treatment-section-description-para{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-align: left;
+}
+.physio-treatment-section-description-overview-para{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-align: left;
+}
+/*Physio Treatment Section Styling*/
+.physio-contact-section{
+    background-color: #0066ff;
+}
+.physio-contact-card-head{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.physio-contact-card-para{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.physio-contact-card-logo{
+    font-size: 33px;
+    color: white;
+}
